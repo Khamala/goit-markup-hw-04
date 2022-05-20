@@ -472,6 +472,33 @@
     letter-spacing: 0.03em;
 }
 
+
+
+
+.list-socnetwork {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    outline: 1px solid rebeccapurple;
+}
+
+
+.icon-insta {
+    
+
+}
+
+.test {
+    display: inline-block;
+}
+
+
+.icon {
+    width: 44px;
+    height: 44px;
+    
+}
+
 /*Footer*/
 
 .footer {
