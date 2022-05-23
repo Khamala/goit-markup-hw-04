@@ -464,58 +464,54 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-bottom: 16px;
 }
 
 
 
+/*Список ссылок на соцсети*/
 
-.list-socnetwork {
+.team-list-icons {
     display: flex;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 30px;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.list-socnetwork-icon:not(:last-child) {
-    margin-right: 10px;
-}
-
-
-.link-socnetwork {
+.team-link-icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
     width: 44px;
     height: 44px;
 
-    justify-content: center;
-    align-items: center;
-
     border-radius: 50%;
-    
-
-
-}
-
-.link-instagram {
-
-    fill: var(--color-icon-primary);
     background-color: var(--primary-bg-color);
-
 }
 
-.link-instagram:hover {
+.team-link-icons:not(:last-child) {
+    margin-right: 10px;
+}
+
+    
+.icons-social {
+    fill: var(--color-icon-primary);
+}
+
+.team-link-icons:hover,
+.team-link-icons:focus {
+    
     background-color: var(--accent-color);
 }
 
-
-.icon-instagram {
-    
-}
-
-.icon-instagram:hover {
+.team-link-icons:hover .icon,
+.team-link-icons:focus .icon {
     fill: var(--primary-button-color);
 }
+
+
 
 
 
