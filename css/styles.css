@@ -40,6 +40,11 @@
     padding-right: 15px;
 }
 
+.icon {
+    fill: currentColor;
+}
+
+
     /*Section header*/
 
 .header {
@@ -129,6 +134,8 @@
     letter-spacing: 0.02em;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -138,10 +145,16 @@
 
 .header-kontakts-list-mail,
 .header-kontakts-list-tel {
-    display: inline-block;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.icon-header-kontakts {
+    margin-right: 10px;
 }
 
 /*Titles h2*/
@@ -331,25 +344,6 @@
 }
 
 
-/*
-.section-benefits-list-item::before {
-    content: "";
-    display: block;
-    height: 120px;
-    margin-bottom: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
-
-    background-color: var(--bg-color);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-*/
-
-
     /*Titles h3*/
 
 .title {
@@ -514,9 +508,6 @@
     background-color: var(--accent-color);
 }
 
-.icon {
-    fill: currentColor;
-}
 
 .icon-instagram {
     
