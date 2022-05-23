@@ -10,6 +10,8 @@
     --button-color-hover: #188CE8;
     --color-logo-black: #000000;
     --color-border: #ECECEC;
+    --color-icon-primary:#AFB1B8;
+
 }
 
 .body {
@@ -309,14 +311,27 @@
 
 .section-benefits-list-item {
     flex-basis: 270px;
+    
 }
-
-
 
 .section-benefits-list-item:not(:last-child) {
     margin-right: 30px;
 }
 
+.benefits-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: var(--bg-color);
+}
+
+
+/*
 .section-benefits-list-item::before {
     content: "";
     display: block;
@@ -332,22 +347,7 @@
     background-position: center;
     
 }
-
-.icon-antenna::before {
-    background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/clock.svg);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/diagram.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/astronaut.svg);
-}
+*/
 
 
     /*Titles h3*/
@@ -477,27 +477,58 @@
 
 .list-socnetwork {
     display: flex;
-    padding: 0px;
-    margin: 0px;
-    outline: 1px solid rebeccapurple;
-}
-
-
-.icon-insta {
-    
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 30px;
 
 }
 
-.test {
-    display: inline-block;
+.list-socnetwork-icon:not(:last-child) {
+    margin-right: 10px;
 }
 
 
-.icon {
+.link-socnetwork {
+    display: flex;
     width: 44px;
     height: 44px;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    
+
+
+}
+
+.link-instagram {
+
+    fill: var(--color-icon-primary);
+    background-color: var(--primary-bg-color);
+
+}
+
+.link-instagram:hover {
+    background-color: var(--accent-color);
+}
+
+.icon {
+    fill: currentColor;
+}
+
+.icon-instagram {
     
 }
+
+.icon-instagram:hover {
+    fill: var(--primary-button-color);
+}
+
+
+
+
 
 /*Footer*/
 
@@ -635,7 +666,3 @@
     margin-top: 0px;
     margin-bottom: 0px;  
 }
-
-Для размера заливочной картинки
-
-background-size: ;
