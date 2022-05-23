@@ -582,7 +582,8 @@
 }
 
 .footer-container {
-    
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -637,6 +638,23 @@
     display: inline-block;
     margin-bottom: 9px;
 }
+
+
+.footer-icons {
+    
+}
+
+.footer-address {
+    margin-right: 70px;
+}
+
+.list-icons {
+    display: flex;
+}
+
+
+
+
 
     /*portfolio*/
 
