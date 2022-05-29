@@ -207,6 +207,8 @@
 .button.secondary:focus {
     color: var(--primary-button-color);
     background-color: var(--button-color-hover);
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-activ {
@@ -227,7 +229,11 @@
 .button.button-activ:focus {
     color: var(--primary-button-color);
     background-color: var(--button-color-hover);
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+
 
 /*Section Hero*/
 
@@ -507,12 +513,18 @@
 .team-link-icons:focus {
     
     background-color: var(--accent-color);
+    
 }
 
 .team-link-icons:hover .icon,
 .team-link-icons:focus .icon {
     fill: var(--primary-button-color);
 }
+
+
+
+ 
+
 
 
         /*CLIENTS*/
@@ -705,7 +717,7 @@
 
 
 
-    /*portfolio*/
+    /*PORTFOLIO*/
 
 .portfolio-section {
     padding-top: 94px;
@@ -774,4 +786,14 @@
 
     margin-top: 0px;
     margin-bottom: 0px;  
+}
+
+.projects-shadow {
+    display: block;
+}
+
+.projects-shadow:hover,
+.projects-shadow:focus {
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
