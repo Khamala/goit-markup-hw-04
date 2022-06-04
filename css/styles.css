@@ -145,7 +145,7 @@
 
 .header-kontakts-list-mail,
 .header-kontakts-list-tel {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -560,6 +560,8 @@
 
     width: 170px;
     height: 92px;
+
+    outline: transparent;
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
